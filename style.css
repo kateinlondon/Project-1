@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(134, 223, 252);
+}
+
+.input-container{
+    margin: 0 auto;
+}
+
+#heading{
+    text-align: center;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+}
+
+#start-game, #reset-game{
+    background-color: rgb(57, 195, 57);
+    color: white;
+    font-size: medium;
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+#reset-game{
+    background-color: rgb(229, 63, 63);
+}
+
+.game-container{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.row{
+    display: flex;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(96, 224, 115);
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cell:hover{
+    background-color: rgb(146, 20, 214);
+}
+
+#winner{
+    visibility: hidden;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+    border-radius: 20px;
+    width: 30%;
+    background-color: rgb(108, 207, 63);
+    padding: 10px 20px;
+}
